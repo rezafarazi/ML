@@ -21,7 +21,7 @@ model = DecisionTreeClassifier()
 model.fit(x_train,y_train)
 
 y_pred=model.predict(x_test)
-accuracy = (y_test,y_pred)
+#accuracy = (y_test,y_pred)
 
 
 while True:
